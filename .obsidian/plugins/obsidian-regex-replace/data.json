@@ -1,0 +1,10 @@
+{
+  "findText": "A Praga",
+  "replaceText": "[[RPGs/Célula-Tronco/A Praga|A Praga]]]",
+  "useRegEx": true,
+  "selOnly": false,
+  "caseInsensitive": false,
+  "processLineBreak": false,
+  "processTab": false,
+  "prefillFind": false
+}
