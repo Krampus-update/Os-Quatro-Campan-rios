@@ -59,6 +59,8 @@ fc-category: Nascimentos
 | Cidade            | `VIEW[{Caracteristica.Cidade}]`                                                                      |
 |      Pronome      |  `INPUT[suggester(option(Ele/Dele), option(Ela/Dela), option(Elu/Delu)):Caracteristica.Pronome]`     |  
 
+---
+
 | Cealdica |                                   Valor                                    |
 | :------: | :------------------------------------------------------------------------: |
 |  Calço   |                  `VIEW[round({Moedas.Cealdica.Calço},2)]`                  |
@@ -66,7 +68,6 @@ fc-category: Nascimentos
 |   Jota   | `VIEW[round({Moedas.Cealdica.Monótono}/10,2)][math:Moedas.Cealdica.Jota]`  |
 | Talento  |  `VIEW[round({Moedas.Cealdica.Jota}/10,2)][math:Moedas.Cealdica.Talento]`  |
 |  Março   | `VIEW[round({Moedas.Cealdica.Talento}/10,2)][math:Moedas.Cealdica.Março]`  |
-|          |                                                                            |
 
 | Vintanesa |                                   Valor                                    |
 |:---------:|:--------------------------------------------------------------------------:|

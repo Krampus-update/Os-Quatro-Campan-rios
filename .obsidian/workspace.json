@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Criar Personagem.md",
+                "file": "Os Quatro Campanários.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Criar Personagem.md",
+                "file": "Os Quatro Campanários.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Criar Personagem.md",
+                "file": "Os Quatro Campanários.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Criar Personagem.md"
+                "file": "Os Quatro Campanários.md"
               }
             }
           }
@@ -165,21 +165,32 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "templater-obsidian:Templater": false,
       "runjs:RunJS": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
   "active": "489d55ececb36ad1",
   "lastOpenFiles": [
-    "Personagens/Igor.md",
+    "Lugares/Taverninha Bom Encanto.md",
+    "SPCs/SCP-003 - Porta Hipnótica.md",
+    "SPCs/SCP-002 - Fogo Fátuo.md",
+    "NPCs/Alunos/Mia.md",
+    "NPCs/Alunos/Carlito.md",
+    "NPCs/Alunos/Ambrose.md",
+    "NPCs/Comerciantes/Arturito.md",
+    "NPCs/Professores/Brandeur.md",
+    "NPCs/Professores/Arwil.md",
     "Templates/Criar Personagem.md",
+    "Personagens/Igor.md",
     "Templates/Criar SCP.md",
     "Os Quatro Campanários.md",
     "Personagens/Arthur Schmiedelegende.md",
     "Personagens/Arthur Schmiedelegende/IMG-17092024-151137240.png",
-    "Personagens/Arthur Schmiedelegende/IMG-17092024-170551675.png",
-    "NPCs/Alunos/Mia.md",
-    "NPCs/Alunos/Carlito.md",
-    "NPCs/Alunos/Ambrose.md",
-    "Lugares/Taverninha Bom Encanto.md"
+    "Personagens/Arthur Schmiedelegende/IMG-17092024-170551675.png"
   ]
 }
