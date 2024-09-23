@@ -66,6 +66,7 @@ fc-category: Nascimentos
 |   Jota   | `VIEW[round({Moedas.Cealdica.Monótono}/10,2)][math:Moedas.Cealdica.Jota]`  |
 | Talento  |  `VIEW[round({Moedas.Cealdica.Jota}/10,2)][math:Moedas.Cealdica.Talento]`  |
 |  Março   | `VIEW[round({Moedas.Cealdica.Talento}/10,2)][math:Moedas.Cealdica.Março]`  |
+|          |                                                                            |
 
 | Vintanesa |                                   Valor                                    |
 |:---------:|:--------------------------------------------------------------------------:|

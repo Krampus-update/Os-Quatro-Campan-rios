@@ -158,20 +158,14 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "calendarium:Open Calendarium": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
-      "markdown-table-editor:Open Markdown Table Editor": false,
-      "obsidian-regex-pipeline:Regex Rulesets": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "templater-obsidian:Templater": false,
       "runjs:RunJS": false,
-      "calendarium:Open Calendarium": false
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "489d55ececb36ad1",
