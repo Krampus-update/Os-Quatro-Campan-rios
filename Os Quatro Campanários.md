@@ -1,3 +1,6 @@
+---
+descricao: ""
+---
 ![[Assets/d95c80be0d8a1a7d059417053e1bf21a_MD5.webp#banner]]
 
 ```meta-bind
