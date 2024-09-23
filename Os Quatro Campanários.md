@@ -7,20 +7,20 @@ INPUT[editor:descricao]
 > [!recite]+ Jogadores
 > ```dataview
 > TABLE WITHOUT ID caracteristica.Nome as "Nome", caracteristica.Idade as "Idade", Moedas.Cealdica.Calço as "Dinheiro"
-> FROM -#no and "Campanhas/Os Quatro Campanários/Personagens"
+> FROM -#no and "Personagens"
 >```
 ---
 > [!recite]- Professores
 > ```dataview
 > TABLE WITHOUT ID file.name AS "Nome", materia AS "Matéria"
-> FROM  "Campanhas/Os Quatro Campanários/NPCs"
+> FROM  "NPCs"
 > WHERE materia
 > ``` 
 ---
 > [!recite]- NPCs
 > ```dataview
 > TABLE WITHOUT ID file.name AS "Nome", funcao AS "Função"
-> FROM  "Campanhas/Os Quatro Campanários/NPCs"
+> FROM  "NPCs"
 > WHERE !materia
 > ``` 
 ---

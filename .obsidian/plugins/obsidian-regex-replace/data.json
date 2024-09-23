@@ -1,6 +1,6 @@
 {
-  "findText": "A Praga",
-  "replaceText": "[[RPGs/Célula-Tronco/A Praga|A Praga]]]",
+  "findText": "\"Campanhas/Os Quatro Campanários/NPCs\"",
+  "replaceText": "\"NPCs\"",
   "useRegEx": true,
   "selOnly": false,
   "caseInsensitive": false,

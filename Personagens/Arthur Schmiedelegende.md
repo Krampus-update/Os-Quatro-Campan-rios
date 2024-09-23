@@ -36,11 +36,11 @@ Caracteristica:
   Nacionalidade: Arturiano
   Cidade: Lature
 Notas: |
-  Trabalho na [[Campanhas/Os Quatro Campanários/Lugares/Taverninha Bom Encanto]] se eu trabalhar final de semana eu ganho extra.
+  Trabalho na [[Lugares/Taverninha Bom Encanto|Taverninha Bom Encanto]] se eu trabalhar final de semana eu ganho extra.
 
    ```dataview
    TABLE WITHOUT ID file.name AS "Nome", materia AS "Matéria"
-   FROM  "Campanhas/Os Quatro Campanários/NPCs"
+   FROM  "NPCs"
    WHERE materia
   ```
 fc-date:
@@ -49,7 +49,7 @@ fc-date:
   month: 6
 fc-category: Nascimentos
 ---
-![[Campanhas/Os Quatro Campanários/Personagens/Arthur Schmiedelegende/IMG-17092024-151137240.png|center]]
+![[Personagens/Arthur Schmiedelegende/IMG-17092024-151137240.png|center]]
 > [!recite]- Configurações 
 > Nome: `INPUT[text(placeholder(Nome ✍)):Caracteristica.Nome]`
 > Altura (em cm): `INPUT[number:Caracteristica.Altura]`
