@@ -1,24 +1,24 @@
 ---
 Moedas:
   Cealdica:
-    Monótono: 293.7
-    Jota: 29.37
-    Talento: 2.94
-    Março: 0.29
-    Calço: 2937
+    Monótono: 193.7
+    Jota: 19.37
+    Talento: 1.94
+    Março: 0.19
+    Calço: 1937
   Vintanesa:
-    Centa: 489.5
-    Centavo: 244.75
-    Bit: 97.9
-    QBit: 45
-    Roda: 11
-    Real: 4.5
+    Centa: 322.83
+    Centavo: 161.42
+    Bit: 64.57
+    QBit: 29
+    Roda: 7
+    Real: 2.9
   Republicanas:
-    Moe: 2349.6
-    Ferro: 939.84
-    Cobre: 469.92
-    Prata: 46.99
-    Republica: 3.92
+    Moe: 1549.6
+    Ferro: 619.84
+    Cobre: 309.92
+    Prata: 30.99
+    Republica: 2.58
 Lore: |-
   Arthur era um jovem nascido na movimentada cidade de Lature, localizada ao lado de um vulcão ativo no Império Arturiano. A cidade era conhecida por seus ricos depósitos de minerais que eram minerados e usados para criar poderosas armas para a guerra contínua contra demônios. Lature também era conhecida como o berço dos ferreiros mais habilidosos do império.
   Apesar de crescer em uma cidade cheia de artesãos talentosos e guerreiros, Arthur sentia que não se encaixava completamente. Ele não era o melhor ferreiro nem o mais forte mineiro, e frequentemente se perguntava qual era seu verdadeiro propósito na vida.
