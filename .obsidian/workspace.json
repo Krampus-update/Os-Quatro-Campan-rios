@@ -150,6 +150,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "183b8983eaea34a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b18846c01dd66084",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM_AGENDA",
+              "state": {
+                "calendar": "ID_e9ca0818eaa8",
+                "id": "ID_9bbb0b7b8aca",
+                "parent": "ID_d8ea2af84898"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,7 +188,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
-      "obsidian-regex-pipeline:Regex Rulesets": false
+      "obsidian-regex-pipeline:Regex Rulesets": false,
+      "calendarium:Open Calendarium": false,
+      "callout-manager:Insert Callout": false
     }
   },
   "active": "489d55ececb36ad1",

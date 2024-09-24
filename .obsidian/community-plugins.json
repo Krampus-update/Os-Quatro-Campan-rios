@@ -22,5 +22,6 @@
   "obsidian-footnotes",
   "obsidian-regex-replace",
   "markdown-table-editor",
-  "obsidian-regex-pipeline"
+  "obsidian-regex-pipeline",
+  "callout-manager"
 ]

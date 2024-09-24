@@ -6,7 +6,7 @@ descricao: ""
 ```meta-bind
 INPUT[editor:descricao]
 ```
-**
+
 > [!recite]+ Jogadores
 > ```dataview
 > TABLE WITHOUT ID caracteristica.Nome as "Nome", caracteristica.Idade as "Idade", Moedas.Cealdica.Calço as "Dinheiro"
