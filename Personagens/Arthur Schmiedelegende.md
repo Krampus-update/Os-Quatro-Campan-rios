@@ -48,6 +48,7 @@ fc-date:
   day: 12
   month: 6
 fc-category: Nascimentos
+Inventario: "- Espada (Encantada)"
 ---
 ![[Personagens/Arthur Schmiedelegende/IMG-17092024-151137240.png|center]]
 > [!recite]- Configurações 
@@ -75,6 +76,13 @@ fc-category: Nascimentos
 |     Pronome     | `INPUT[suggester(option(Ele/Dele), option(Ela/Dela), option(Elu/Delu)):Caracteristica.Pronome]` |
 
 ---
+> [!recite]- Inventário
+> ```meta-bind
+> INPUT[editor:Inventario]
+> ```
+
+
+---
 > [!recite]- Bolsa
 > | Cealdica |                                   Valor                                    |
 | :------: | :------------------------------------------------------------------------: |
@@ -100,7 +108,7 @@ fc-category: Nascimentos
 >| Republicanas |                                        Valor                                        |
 | :----------: | :---------------------------------------------------------------------------------: |
 |     Moe      |     `VIEW[round({Moedas.Cealdica.Calço}/1.25,2)][math:Moedas.Republicanas.Moe]`     |
-|    Ferro     | `VIEW[round({Moedas.Republicanas.Moe}/2.5,2)][math:Moedas.Republicanas.Ferro]`<br>  |
+|    Ferro     | `VIEW[round({Moedas.Republicanas.Moe}/2.5,2)][math:Moedas.Republicanas.Ferro]`  |
 |    Cobre     |   `VIEW[round({Moedas.Republicanas.Ferro}/2,2)][math:Moedas.Republicanas.Cobre]`    |
 |    Prata     |   `VIEW[round({Moedas.Republicanas.Cobre}/10,2)][math:Moedas.Republicanas.Prata]`   |
 |  República   | `VIEW[round({Moedas.Republicanas.Prata}/12,2)][math:Moedas.Republicanas.Republica]` |
