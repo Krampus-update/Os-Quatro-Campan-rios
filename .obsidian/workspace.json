@@ -13,11 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NPCs/Ewart.md",
+                "file": "Personagens/Arthur Schmiedelegende.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
-            }
+            },
+            "group": "9b7e2f8d00aeadd4"
+          }
+        ]
+      },
+      {
+        "id": "bb9b8a96a8e5353a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d9b0a2655d8068d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personagens/Arthur Schmiedelegende.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "9b7e2f8d00aeadd4"
           }
         ]
       }
@@ -77,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1fc20b61d45703cd",
@@ -93,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NPCs/Ewart.md",
+                "file": "Personagens/Arthur Schmiedelegende.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NPCs/Ewart.md",
+                "file": "Personagens/Arthur Schmiedelegende.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NPCs/Ewart.md"
+                "file": "Personagens/Arthur Schmiedelegende.md"
               }
             }
           }
@@ -176,15 +197,17 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "489d55ececb36ad1",
+  "active": "9d9b0a2655d8068d",
   "lastOpenFiles": [
-    "Os Quatro Campanários.md",
+    "NPCs/João.md",
+    "NPCs/Alunos/Pablito.md",
+    "NPCs/Alunos/Caio.md",
     "NPCs/Ewart.md",
+    "Os Quatro Campanários.md",
     "SPCs/SCP-002 - Fogo Fátuo.md",
     "Lugares/Taverninha Bom Encanto.md",
     "NPCs/Comerciantes/Arturito.md",
     "NPCs/Alunos/Mia.md",
-    "NPCs/Alunos/Carlito.md",
     "NPCs/Alunos/Ambrose.md",
     "Personagens/Arthur Schmiedelegende.md",
     "SPCs/SCP-003 - Porta Hipnótica.md",
