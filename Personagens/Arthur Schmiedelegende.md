@@ -48,7 +48,9 @@ fc-date:
   day: 12
   month: 6
 fc-category: Nascimentos
-Inventario: "- Espada (Encantada)"
+Inventario: |
+  - Espada (Encantada)
+  - 4 Acido de Lagarto de Fogo
 ---
 ![[Personagens/Arthur Schmiedelegende/IMG-17092024-151137240.png|center]]
 > [!recite]- Configurações 
