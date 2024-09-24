@@ -23,5 +23,6 @@
   "obsidian-regex-replace",
   "markdown-table-editor",
   "obsidian-regex-pipeline",
-  "callout-manager"
+  "callout-manager",
+  "remotely-save"
 ]

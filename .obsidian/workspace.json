@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Os Quatro Campanários.md",
-                "mode": "preview",
+                "file": "NPCs/Ewart.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Os Quatro Campanários.md",
+                "file": "NPCs/Ewart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Os Quatro Campanários.md",
+                "file": "NPCs/Ewart.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,25 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Os Quatro Campanários.md"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "183b8983eaea34a6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b18846c01dd66084",
-            "type": "leaf",
-            "state": {
-              "type": "CALENDARIUM_AGENDA",
-              "state": {
-                "calendar": "ID_e9ca0818eaa8",
-                "id": "ID_9bbb0b7b8aca",
-                "parent": "ID_d8ea2af84898"
+                "file": "NPCs/Ewart.md"
               }
             }
           }
@@ -190,11 +172,14 @@
       "markdown-table-editor:Open Markdown Table Editor": false,
       "obsidian-regex-pipeline:Regex Rulesets": false,
       "calendarium:Open Calendarium": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": false,
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "489d55ececb36ad1",
   "lastOpenFiles": [
+    "Os Quatro Campanários.md",
+    "NPCs/Ewart.md",
     "SPCs/SCP-002 - Fogo Fátuo.md",
     "Lugares/Taverninha Bom Encanto.md",
     "NPCs/Comerciantes/Arturito.md",
@@ -202,7 +187,6 @@
     "NPCs/Alunos/Carlito.md",
     "NPCs/Alunos/Ambrose.md",
     "Personagens/Arthur Schmiedelegende.md",
-    "Os Quatro Campanários.md",
     "SPCs/SCP-003 - Porta Hipnótica.md",
     "NPCs/Professores/Brandeur.md",
     "NPCs/Professores/Arwil.md",

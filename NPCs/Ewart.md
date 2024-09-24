@@ -1,0 +1,5 @@
+---
+funcao:
+  - carga
+  - nobre
+---
