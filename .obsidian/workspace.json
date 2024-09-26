@@ -4,40 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d53adced1e67fd77",
+        "id": "0b64f97949908554",
         "type": "tabs",
         "children": [
           {
-            "id": "489d55ececb36ad1",
+            "id": "8df698f5d42d92f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Personagens/Arthur Schmiedelegende.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
-            },
-            "group": "9b7e2f8d00aeadd4"
-          }
-        ]
-      },
-      {
-        "id": "bb9b8a96a8e5353a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9d9b0a2655d8068d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personagens/Arthur Schmiedelegende.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "9b7e2f8d00aeadd4"
+            }
           }
         ]
       }
@@ -196,7 +176,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "9d9b0a2655d8068d",
+  "active": "8df698f5d42d92f4",
   "lastOpenFiles": [
     "NPCs/João.md",
     "NPCs/Alunos/Pablito.md",
