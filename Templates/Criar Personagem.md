@@ -34,7 +34,7 @@ fc-date:
   year: 
 fc-category: Nascimentos
 ---
-![[Personagens/Arthur Schmiedelegende/IMG-17092024-151137240.png|center]]
+![[Assets/IMG-17092024-151137240.png|center]]
 > [!recite]- Configurações 
 > Nome: `INPUT[text(placeholder(Nome ✍)):Caracteristica.Nome]`
 > Altura (em cm): `INPUT[number:Caracteristica.Altura]`

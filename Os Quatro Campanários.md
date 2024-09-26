@@ -9,20 +9,20 @@ INPUT[editor:descricao]
 
 > [!recite]+ Jogadores
 > ```dataview
-> TABLE WITHOUT ID caracteristica.Nome as "Nome", caracteristica.Idade as "Idade", Moedas.Cealdica.Calço as "Dinheiro"
+> TABLE WITHOUT ID file.link AS "Nome", caracteristica.Idade AS "Idade", Moedas.Cealdica.Calço AS "Dinheiro"
 > FROM -#no and "Personagens"
 >```
 ---
 > [!recite]- Professores
 > ```dataview
-> TABLE WITHOUT ID file.name AS "Nome", materia AS "Matéria"
+> TABLE WITHOUT ID file.link AS "Nome", materia AS "Matéria"
 > FROM  "NPCs"
 > WHERE materia
 > ``` 
 ---
 > [!recite]- NPCs
 > ```dataview
-> TABLE WITHOUT ID file.name AS "Nome", funcao AS "Função"
+> TABLE WITHOUT ID file.link AS "Nome", funcao AS "Função"
 > FROM  "NPCs"
 > WHERE !materia
 > ``` 
