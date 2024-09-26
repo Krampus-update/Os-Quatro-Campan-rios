@@ -48,9 +48,11 @@ fc-date:
   day: 12
   month: 6
 fc-category: Nascimentos
-Inventario: |
+Inventario:
   - Espada (Encantada)
   - 4 Acido de Lagarto de Fogo
+exampleProperty:
+  - Krampus
 ---
 ![[Personagens/Arthur Schmiedelegende/IMG-17092024-151137240.png|center]]
 > [!recite]- Configurações 
@@ -80,9 +82,8 @@ Inventario: |
 ---
 > [!recite]- Inventário
 > ```meta-bind
-> INPUT[editor:Inventario]
+> INPUT[list:Inventario]
 > ```
-
 
 ---
 > [!recite]- Bolsa

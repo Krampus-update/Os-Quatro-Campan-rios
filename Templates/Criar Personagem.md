@@ -34,7 +34,7 @@ fc-date:
   year: 
 fc-category: Nascimentos
 ---
-
+![[Personagens/Arthur Schmiedelegende/IMG-17092024-151137240.png|center]]
 > [!recite]- Configurações 
 > Nome: `INPUT[text(placeholder(Nome ✍)):Caracteristica.Nome]`
 > Altura (em cm): `INPUT[number:Caracteristica.Altura]`
@@ -47,29 +47,37 @@ fc-category: Nascimentos
 > > `VIEW[Mês: {fc-date.month}][text]` `INPUT[slider(minValue(1),maxValue(8),defaultValue(1)):fc-date.month]` 
 > > Ano: `INPUT[number(defaultValue(5005)):fc-date.year]` 
 > > Idade: `VIEW[5005-{fc-date.year}][math:Caracteristica.Idade]`
-
-
-|  Características  |                                                                                                      |
-|:-----------------:|:----------------------------------------------------------------------------------------------------:|
-|       Nome        |                                   `VIEW[{Caracteristica.Nome}]`                                      |
-|       Idade       |                                    `VIEW[{Caracteristica.Idade}]`                                    |
-|      Altura       |                              `VIEW[{Caracteristica.Altura} cm to m]`                                 |
-|       Peso        |                                 `VIEW[{Caracteristica.Peso} kg]`                                     |
-| Nacionalidade     | `VIEW[{Caracteristica.Nacionalidade}]`                                                               |
-| Cidade            | `VIEW[{Caracteristica.Cidade}]`                                                                      |
-|      Pronome      |  `INPUT[suggester(option(Ele/Dele), option(Ela/Dela), option(Elu/Delu)):Caracteristica.Pronome]`     |  
-
 ---
 
-| Cealdica |                                   Valor                                    |
+| Características |                                                                                                 |
+| :-------------: | :---------------------------------------------------------------------------------------------: |
+|      Nome       |                                  `VIEW[{Caracteristica.Nome}]`                                  |
+|      Idade      |                                 `VIEW[{Caracteristica.Idade}]`                                  |
+|     Altura      |                             `VIEW[{Caracteristica.Altura} cm to m]`                             |
+|      Peso       |                                `VIEW[{Caracteristica.Peso} kg]`                                 |
+|  Nacionalidade  |                             `VIEW[{Caracteristica.Nacionalidade}]`                              |
+|     Cidade      |                                 `VIEW[{Caracteristica.Cidade}]`                                 |
+|     Pronome     | `INPUT[suggester(option(Ele/Dele), option(Ela/Dela), option(Elu/Delu)):Caracteristica.Pronome]` |
+
+---
+> [!recite]- Inventário
+> ```meta-bind
+> INPUT[list:Inventario]
+> ```
+
+---
+> [!recite]- Bolsa
+> | Cealdica |                                   Valor                                    |
 | :------: | :------------------------------------------------------------------------: |
 |  Calço   |                  `VIEW[round({Moedas.Cealdica.Calço},2)]`                  |
 | Monótono | `VIEW[round({Moedas.Cealdica.Calço}/10,2)][math:Moedas.Cealdica.Monótono]` |
 |   Jota   | `VIEW[round({Moedas.Cealdica.Monótono}/10,2)][math:Moedas.Cealdica.Jota]`  |
 | Talento  |  `VIEW[round({Moedas.Cealdica.Jota}/10,2)][math:Moedas.Cealdica.Talento]`  |
 |  Março   | `VIEW[round({Moedas.Cealdica.Talento}/10,2)][math:Moedas.Cealdica.Março]`  |
-
-| Vintanesa |                                   Valor                                    |
+> 
+> ---
+>
+>| Vintanesa |                                   Valor                                    |
 |:---------:|:--------------------------------------------------------------------------:|
 |   Centa   |  `VIEW[round({Moedas.Cealdica.Calço}/6,2)][math:Moedas.Vintanesa.Centa]`   |
 |  Centavo  | `VIEW[round({Moedas.Vintanesa.Centa}/2,2)][math:Moedas.Vintanesa.Centavo]` |
@@ -77,17 +85,19 @@ fc-category: Nascimentos
 |   QBit    |   `VIEW[round({Moedas.Vintanesa.Bit}/2.2)][math:Moedas.Vintanesa.QBit]`    |
 |   Roda    |   `VIEW[round({Moedas.Vintanesa.QBit}/4.2)][math:Moedas.Vintanesa.Roda]`   |
 |   Real    |  `VIEW[round({Moedas.Vintanesa.QBit}/10,2)][math:Moedas.Vintanesa.Real]`   |
-
-| Republicanas |                                        Valor                                        |
+> 
+> ---
+>
+>| Republicanas |                                        Valor                                        |
 | :----------: | :---------------------------------------------------------------------------------: |
 |     Moe      |     `VIEW[round({Moedas.Cealdica.Calço}/1.25,2)][math:Moedas.Republicanas.Moe]`     |
 |    Ferro     | `VIEW[round({Moedas.Republicanas.Moe}/2.5,2)][math:Moedas.Republicanas.Ferro]`  |
 |    Cobre     |   `VIEW[round({Moedas.Republicanas.Ferro}/2,2)][math:Moedas.Republicanas.Cobre]`    |
 |    Prata     |   `VIEW[round({Moedas.Republicanas.Cobre}/10,2)][math:Moedas.Republicanas.Prata]`   |
 |  República   | `VIEW[round({Moedas.Republicanas.Prata}/12,2)][math:Moedas.Republicanas.Republica]` |
-
+>
 ---
-> [!recite]+ Notas
+> [!recite]- Notas
 >```meta-bind
 > INPUT[editor():Notas]
 > ```
