@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1fc20b61d45703cd",
@@ -192,9 +191,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
       "obsidian-regex-pipeline:Regex Rulesets": false,
-      "calendarium:Open Calendarium": false,
       "callout-manager:Insert Callout": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "calendarium:Open Calendarium": false
     }
   },
   "active": "9d9b0a2655d8068d",
