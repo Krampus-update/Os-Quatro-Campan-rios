@@ -1,24 +1,4 @@
 ---
-Moedas:
-  Cealdica:
-    Monótono: 193.7
-    Jota: 19.37
-    Talento: 1.94
-    Março: 0.19
-    Calço: 1937
-  Vintanesa:
-    Centa: 322.83
-    Centavo: 161.42
-    Bit: 64.57
-    QBit: 29
-    Roda: 7
-    Real: 2.9
-  Republicanas:
-    Moe: 1549.6
-    Ferro: 619.84
-    Cobre: 309.92
-    Prata: 30.99
-    Republica: 2.58
 Lore: |-
   Arthur era um jovem nascido na movimentada cidade de Lature, localizada ao lado de um vulcão ativo no Império Arturiano. A cidade era conhecida por seus ricos depósitos de minerais que eram minerados e usados para criar poderosas armas para a guerra contínua contra demônios. Lature também era conhecida como o berço dos ferreiros mais habilidosos do império.
   Apesar de crescer em uma cidade cheia de artesãos talentosos e guerreiros, Arthur sentia que não se encaixava completamente. Ele não era o melhor ferreiro nem o mais forte mineiro, e frequentemente se perguntava qual era seu verdadeiro propósito na vida.
@@ -37,7 +17,6 @@ Caracteristica:
   Cidade: Lature
 Notas: |
   Trabalho na [[Lugares/Taverninha Bom Encanto|Taverninha Bom Encanto]] se eu trabalhar final de semana eu ganho extra.
-
    ```dataview
    TABLE WITHOUT ID file.name AS "Nome", materia AS "Matéria"
    FROM  "NPCs"
@@ -51,45 +30,67 @@ fc-category: Nascimentos
 Inventario:
   - Espada (Encantada)
   - 4 Acido de Lagarto de Fogo
-exampleProperty:
-  - Krampus
+Moedas:
+  Cealdica:
+    Monótono: 193.7
+    Jota: 19.37
+    Talento: 1.94
+    Março: 0.19
+    Calço: 1937
+  Vintanesa:
+    Centa: 322.83
+    Centavo: 161.42
+    Bit: 64.57
+    QBit: 29
+    Roda: 7
+    Real: 2.9
+  Republicana:
+    Moe: 1549.6
+    Prata: 30.99
+    Republica: 2.58
+    Ferro: 619.84
+    Cobre: 309.92
+  Republicanas:
+    Ferro: 619.84
+    Cobre: 309.92
+    Republica: 2.58
+    Prata: 30.99
 ---
-![[Assets/IMG-17092024-151137240.png|center]]
-> [!recite]- Configurações 
-> Nome: `INPUT[text(placeholder(Nome ✍)):Caracteristica.Nome]`
+> [!infobox]+
+> ![[Assets/IMG-17092024-151137240.png]]
+> #### Configurações 
 > Altura (em cm): `INPUT[number:Caracteristica.Altura]`
 > Peso: `INPUT[number:Caracteristica.Peso]`
-> Dinheiro: `INPUT[number:Moedas.Cealdica.Calço]`
 > Nacionalidade: `INPUT[text(placeholder(ex: Brasileiro)):Caracteristica.Nacionalidade]`
 > Cidade:`INPUT[text(placeholder(Sua cidade natal)):Caracteristica.Cidade]`
-> > [!recite]- Nascimento
-> > `VIEW[Dia: {fc-date.day}][text]` `INPUT[slider(minValue(1),maxValue(44),defaultValue(1)):fc-date.day]` 
-> > `VIEW[Mês: {fc-date.month}][text]` `INPUT[slider(minValue(1),maxValue(8),defaultValue(1)):fc-date.month]` 
-> > Ano: `INPUT[number(defaultValue(5005)):fc-date.year]` 
-> > Idade: `VIEW[5005-{fc-date.year}][math:Caracteristica.Idade]`
+> #### Nascimento
+> `VIEW[Dia: {fc-date.day}][text]` `INPUT[slider(minValue(1),maxValue(44),defaultValue(1)):fc-date.day]` 
+> `VIEW[Mês: {fc-date.month}][text]` `INPUT[slider(minValue(1),maxValue(8),defaultValue(1)):fc-date.month]` 
+> Ano: `INPUT[number(defaultValue(5005)):fc-date.year]` 
+> Idade: `VIEW[5005-{fc-date.year}][math:Caracteristica.Idade]`
 ---
 
+
 | Características |                                                                                                 |
-| :-------------: | :---------------------------------------------------------------------------------------------: |
-|      Nome       |                                  `VIEW[{Caracteristica.Nome}]`                                  |
-|      Idade      |                                 `VIEW[{Caracteristica.Idade}]`                                  |
-|     Altura      |                             `VIEW[{Caracteristica.Altura} cm to m]`                             |
-|      Peso       |                                `VIEW[{Caracteristica.Peso} kg]`                                 |
-|  Nacionalidade  |                             `VIEW[{Caracteristica.Nacionalidade}]`                              |
-|     Cidade      |                                 `VIEW[{Caracteristica.Cidade}]`                                 |
-|     Pronome     | `INPUT[suggester(option(Ele/Dele), option(Ela/Dela), option(Elu/Delu)):Caracteristica.Pronome]` |
+| :-------------- | :---------------------------------------------------------------------------------------------- |
+| Nome            | `=this.file.name`                                                                               |
+| Idade           | `VIEW[{Caracteristica.Idade}]`                                                                  |
+| Altura          | `VIEW[{Caracteristica.Altura} cm to m]`                                                         |
+| Peso            | `VIEW[{Caracteristica.Peso} kg]`                                                                |
+| Nacionalidade   | `VIEW[{Caracteristica.Nacionalidade}]`                                                          |
+| Cidade          | `VIEW[{Caracteristica.Cidade}]`                                                                 |
+| Pronome         | `INPUT[suggester(option(Ele/Dele), option(Ela/Dela), option(Elu/Delu)):Caracteristica.Pronome]` |
 
 ---
 > [!recite]- Inventário
 > ```meta-bind
 > INPUT[list:Inventario]
 > ```
-
 ---
 > [!recite]- Bolsa
 > | Cealdica |                                   Valor                                    |
 | :------: | :------------------------------------------------------------------------: |
-|  Calço   |                  `VIEW[round({Moedas.Cealdica.Calço},2)]`                  |
+|  Calço   |                  `INPUT[number:Moedas.Cealdica.Calço]`                  |
 | Monótono | `VIEW[round({Moedas.Cealdica.Calço}/10,2)][math:Moedas.Cealdica.Monótono]` |
 |   Jota   | `VIEW[round({Moedas.Cealdica.Monótono}/10,2)][math:Moedas.Cealdica.Jota]`  |
 | Talento  |  `VIEW[round({Moedas.Cealdica.Jota}/10,2)][math:Moedas.Cealdica.Talento]`  |
@@ -107,24 +108,21 @@ exampleProperty:
 |   Real    |  `VIEW[round({Moedas.Vintanesa.QBit}/10,2)][math:Moedas.Vintanesa.Real]`   |
 > 
 > ---
->
 >| Republicanas |                                        Valor                                        |
 | :----------: | :---------------------------------------------------------------------------------: |
-|     Moe      |     `VIEW[round({Moedas.Cealdica.Calço}/1.25,2)][math:Moedas.Republicanas.Moe]`     |
-|    Ferro     | `VIEW[round({Moedas.Republicanas.Moe}/2.5,2)][math:Moedas.Republicanas.Ferro]`  |
-|    Cobre     |   `VIEW[round({Moedas.Republicanas.Ferro}/2,2)][math:Moedas.Republicanas.Cobre]`    |
-|    Prata     |   `VIEW[round({Moedas.Republicanas.Cobre}/10,2)][math:Moedas.Republicanas.Prata]`   |
-|  República   | `VIEW[round({Moedas.Republicanas.Prata}/12,2)][math:Moedas.Republicanas.Republica]` |
+|     Moe      |     `VIEW[round({Moedas.Cealdica.Calço}/1.25,2)][math:Moedas.Republicana.Moe]`     |
+|    Ferro     | `VIEW[round({Moedas.Republicana.Moe}/2.5,2)][math:Moedas.Republicana.Ferro]`  |
+|    Cobre     |   `VIEW[round({Moedas.Republicana.Ferro}/2,2)][math:Moedas.Republicana.Cobre]`    |
+|    Prata     |   `VIEW[round({Moedas.Republicana.Cobre}/10,2)][math:Moedas.Republicana.Prata]`   |
+|  República   | `VIEW[round({Moedas.Republicana.Prata}/12,2)][math:Moedas.Republicana.Republica]` |
 >
 ---
 > [!recite]- Notas
 >```meta-bind
 > INPUT[editor():Notas]
 > ```
-
 ---
 > [!recite]- Historia
 > ```meta-bind
 > INPUT[editor():Lore]
 > ```
-

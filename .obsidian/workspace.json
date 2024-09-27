@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "Personagens/Arthur Schmiedelegende.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1fc20b61d45703cd",
@@ -187,11 +188,12 @@
   },
   "active": "8df698f5d42d92f4",
   "lastOpenFiles": [
-    "Personagens/Dante.md",
     "Templates/Criar Personagem.md",
-    "Personagens/Dante/Cartas.md",
-    "Os Quatro Campanários.md",
     "Personagens/Arthur Schmiedelegende.md",
+    "Os Quatro Campanários.md",
+    "Personagens/dv.array(dv.current().file.frontmatter.Cealdica)],[dv.array(dv.current().file.frontmatter.Vintanesa)],[dv.array(dv.current().file.frontmatter.Republicana).md",
+    "Personagens/Dante.md",
+    "Personagens/Dante/Cartas.md",
     "Eternum.md",
     "NPCs/João.md",
     "NPCs/Alunos/Pablito.md",
