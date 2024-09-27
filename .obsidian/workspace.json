@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personagens/Arthur Schmiedelegende.md",
-                "mode": "preview",
-                "source": true
+                "file": "Personagens CONTROLÁVEIS/Kage Nakajima (かげ なかじま).md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1fc20b61d45703cd",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personagens/Arthur Schmiedelegende.md",
+                "file": "Personagens CONTROLÁVEIS/Kage Nakajima (かげ なかじま).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personagens/Arthur Schmiedelegende.md",
+                "file": "Personagens CONTROLÁVEIS/Kage Nakajima (かげ なかじま).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personagens/Arthur Schmiedelegende.md"
+                "file": "Personagens CONTROLÁVEIS/Kage Nakajima (かげ なかじま).md"
               }
             }
           },
@@ -170,20 +169,7 @@
     "hiddenItems": {
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "templater-obsidian:Templater": false,
-      "runjs:RunJS": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
-      "markdown-table-editor:Open Markdown Table Editor": false,
-      "obsidian-regex-pipeline:Regex Rulesets": false,
-      "callout-manager:Insert Callout": false,
-      "remotely-save:Remotely Save": false,
-      "calendarium:Open Calendarium": false
+      "command-palette:Abrir paleta de comandos": false
     }
   },
   "active": "8df698f5d42d92f4",
