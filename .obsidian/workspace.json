@@ -11,8 +11,12 @@
             "id": "8df698f5d42d92f4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Personagens/Arthur Schmiedelegende.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Personagens/Arthur Schmiedelegende.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Personagens/Arthur Schmiedelegende.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +144,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Personagens/Arthur Schmiedelegende.md"
+              }
             }
           },
           {
@@ -179,12 +187,12 @@
   },
   "active": "8df698f5d42d92f4",
   "lastOpenFiles": [
+    "Personagens/Dante.md",
+    "Templates/Criar Personagem.md",
+    "Personagens/Dante/Cartas.md",
     "Os Quatro Campanários.md",
     "Personagens/Arthur Schmiedelegende.md",
-    "Personagens/Dante/Cartas.md",
-    "Personagens/Dante.md",
     "Eternum.md",
-    "Templates/Criar Personagem.md",
     "NPCs/João.md",
     "NPCs/Alunos/Pablito.md",
     "NPCs/Alunos/Caio.md",
