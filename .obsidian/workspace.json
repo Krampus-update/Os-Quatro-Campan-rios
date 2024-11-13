@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Os Quatro Campanários.md",
-                "mode": "source",
-                "source": false
+                "file": "Personagens/Arthur Schmiedelegende.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Os Quatro Campanários"
+              "title": "Arthur Schmiedelegende"
             }
           }
         ]
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Os Quatro Campanários.md",
+                "file": "Personagens/Arthur Schmiedelegende.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Os Quatro Campanários"
+              "title": "Links inversos para Arthur Schmiedelegende"
             }
           },
           {
@@ -122,12 +122,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Os Quatro Campanários.md",
+                "file": "Personagens/Arthur Schmiedelegende.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Os Quatro Campanários"
+              "title": "Links de saída para Arthur Schmiedelegende"
             }
           },
           {
@@ -163,10 +163,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Os Quatro Campanários.md"
+                "file": "Personagens/Arthur Schmiedelegende.md"
               },
               "icon": "lucide-list",
-              "title": "Sumário de Os Quatro Campanários"
+              "title": "Sumário de Arthur Schmiedelegende"
             }
           }
         ]
@@ -197,5 +197,8 @@
     }
   },
   "active": "592be896b8ad0c4d",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "SPCs/SCP-002 - Fogo Fátuo.md",
+    "Os Quatro Campanários.md"
+  ]
 }

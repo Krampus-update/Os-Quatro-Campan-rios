@@ -73,7 +73,7 @@ Moedas:
 
 | Características |                                                                                                 |
 | :-------------- | :---------------------------------------------------------------------------------------------- |
-| Nome            | `= this.file.name`                                                                               |
+| Nome            | `= this.file.name`                                                                              |
 | Idade           | `VIEW[{Caracteristica.Idade}]`                                                                  |
 | Altura          | `VIEW[{Caracteristica.Altura} cm to m]`                                                         |
 | Peso            | `VIEW[{Caracteristica.Peso} kg]`                                                                |
