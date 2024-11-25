@@ -16,7 +16,8 @@ Caracteristica:
   Nacionalidade: Arturiano
   Cidade: Lature
 Notas: |
-  Trabalho na [[Lugares/Taverninha Bom Encanto|Taverninha Bom Encanto]] se eu trabalhar final de semana eu ganho extra.
+  Trabalho na [[Lugares/Taverninha Bom Encanto|Taverninha Bom Encanto]] se eu trabalhar final de semana eu ganho extra. H~2~O
+
    ```dataview
    TABLE WITHOUT ID file.name AS "Nome", materia AS "Matéria"
    FROM  "NPCs"

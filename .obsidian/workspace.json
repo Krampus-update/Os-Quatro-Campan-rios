@@ -33,8 +33,7 @@
               "title": "Release Notes 1.7.6"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,11 +202,15 @@
       "remotely-save:Remotely Save": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "calendarium:Open Calendarium": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "979dbc0afa1526ec",
+  "active": "592be896b8ad0c4d",
   "lastOpenFiles": [
+    "Personagens/Arthur Schmiedelegende.md",
     "SPCs/SCP-002 - Fogo Fátuo.md",
     "Os Quatro Campanários.md"
   ]
