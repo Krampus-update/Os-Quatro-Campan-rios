@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Arthur Schmiedelegende"
             }
+          },
+          {
+            "id": "979dbc0afa1526ec",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,13 +203,10 @@
       "remotely-save:Remotely Save": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "calendarium:Open Calendarium": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "592be896b8ad0c4d",
+  "active": "979dbc0afa1526ec",
   "lastOpenFiles": [
     "SPCs/SCP-002 - Fogo Fátuo.md",
     "Os Quatro Campanários.md"
