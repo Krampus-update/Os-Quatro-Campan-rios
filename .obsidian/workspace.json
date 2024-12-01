@@ -14,39 +14,14 @@
               "type": "markdown",
               "state": {
                 "file": "Personagens/Arthur Schmiedelegende.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Arthur Schmiedelegende"
             }
-          },
-          {
-            "id": "979dbc0afa1526ec",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.6"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.6"
-            }
-          },
-          {
-            "id": "4bf4a218f97bfb62",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,9 +162,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Personagens/Arthur Schmiedelegende.md"
+              },
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Sumário de Arthur Schmiedelegende"
             }
           }
         ]
@@ -213,10 +190,13 @@
       "remotely-save:Remotely Save": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "calendarium:Open Calendarium": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4bf4a218f97bfb62",
+  "active": "592be896b8ad0c4d",
   "lastOpenFiles": [
     "Personagens/Arthur Schmiedelegende.md",
     "SPCs/SCP-002 - Fogo Fátuo.md",
